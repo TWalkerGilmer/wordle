@@ -9,6 +9,7 @@ def main():
     sixth_guess  = ""
     
     guesses = [first_guess.lower(), second_guess.lower(), third_guess.lower(), fourth_guess.lower(), fifth_guess.lower(), sixth_guess.lower()]
+    print("Solution -", solution.upper())
     print("Possible guesses -", len(legalWords))
     for guess in guesses:
         if len(guess) == 0:
