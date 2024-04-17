@@ -1,4 +1,5 @@
-# goal is to find the guess with the fewest average remaining options over all possible solutions 
+# goal is to find the guess with the fewest average remaining options over all possible solutions
+# some initial results: ADOBE (ACUTE), 103, 232
 def main():
     previousGuess  = input("Last checked guess:")
     previousMinAvg = int(input("Previous min avg (0 for none):"))
