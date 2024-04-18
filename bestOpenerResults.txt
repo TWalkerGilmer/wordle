@@ -1,0 +1,48 @@
+new min: ABACK with avg: 471.41013425725424
+new minMax: 925
+new min avg: ABASE with avg: 183.37505413598961
+new min max: 422
+new min avg: ABATE with avg: 178.4382849718493
+new min max: 418
+ABBEY avg: 239.7067994802945
+max: 442
+ABBOT avg: 262.97574707665655
+max: 541
+new min avg: ABHOR with avg: 164.19359029883066
+new min max: 378
+new min avg: ABIDE with avg: 137.21654395842356
+new min max: 298
+ABLED avg: 150.3988739714162
+max: 380
+new min avg: ABODE with avg: 135.5846686877436
+new min max: 292
+new min avg: ABORT with avg: 124.43438718059767
+max: 333
+ABOUT avg: 166.43265482893028
+max: 368
+ABOVE avg: 168.654395842356
+max: 326
+ABUSE avg: 128.01255954958856
+new min max: 274
+ABYSS avg: 331.1857947163274
+max: 682
+new min avg: ACORN with avg: 119.07275877003032
+max: 315
+ACRID avg: 140.968817669987
+max: 343
+new min avg: ACTOR with avg: 108.27760935469901
+max: 294
+new min avg: ACUTE with avg: 102.44737981810307
+new min max: 231
+ADAGE avg: 229.53962754439152
+max: 504
+ADAPT avg: 276.3572975313989
+max: 630
+ADEPT avg: 133.79948029449977
+max: 308
+ADMIN avg: 217.67215244694674
+max: 499
+ADMIT avg: 180.49242096145517
+max: 440
+ADOBE avg: 136.2490255521871
+max: 292
