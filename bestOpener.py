@@ -1,20 +1,21 @@
 # goal is to find the guess with the fewest average remaining options over all possible solutions 
 def main():
-    previousGuess  = input("Last checked guess:")
-    previousMinAvg = float(input("Previous min avg (0 for none):"))
-    previousMinMax = int(input("Previous min max (0 for none):"))
-    
-    # with open('bestOpenerResults.txt', 'r') as bestOpenerResultsFile:
-    #     bestOpenerResultsLines = bestOpenerResultsFile.read().splitlines()
+    with open('bestOpenerResults.txt', 'r') as bestOpenerResultsFile:
+        bestOpenerResultsLines = bestOpenerResultsFile.read().splitlines()
+    lastLine = bestOpenerResultsLines[-1]
+    lastLineWords = lastLine.split()
+    previousGuess  = lastLineWords[10].lower()
+    previousMinAvg = float(lastLineWords[4][:-1])
+    previousMinMax = int(lastLineWords[9][:-1])
     
     minAverageOptions = previousMinAvg
     if (previousMinAvg == 0):
         minAverageOptions = 20000
-    minAverageOptionsWord = "  \"  "
+    minAverageOptionsWord = lastLineWords[2].lower()
     minMaxOptions = previousMinMax
     if (previousMinMax == 0):
         minMaxOptions = 20000
-    minMaxOptionsWord = "  \"  "
+    minMaxOptionsWord = lastLineWords[7].lower()
     for guess in mostSolutions:  # randomize later, change to all guesses
         if (guess <= previousGuess.lower()):
             continue
