@@ -1,48 +1,87 @@
-new min: ABACK with avg: 471.41013425725424
-new minMax: 925
-new min avg: ABASE with avg: 183.37505413598961
-new min max: 422
-new min avg: ABATE with avg: 178.4382849718493
-new min max: 418
-ABBEY avg: 239.7067994802945
-max: 442
-ABBOT avg: 262.97574707665655
-max: 541
-new min avg: ABHOR with avg: 164.19359029883066
-new min max: 378
-new min avg: ABIDE with avg: 137.21654395842356
-new min max: 298
-ABLED avg: 150.3988739714162
-max: 380
-new min avg: ABODE with avg: 135.5846686877436
-new min max: 292
-new min avg: ABORT with avg: 124.43438718059767
-max: 333
-ABOUT avg: 166.43265482893028
-max: 368
-ABOVE avg: 168.654395842356
-max: 326
-ABUSE avg: 128.01255954958856
-new min max: 274
-ABYSS avg: 331.1857947163274
-max: 682
-new min avg: ACORN with avg: 119.07275877003032
-max: 315
-ACRID avg: 140.968817669987
-max: 343
-new min avg: ACTOR with avg: 108.27760935469901
-max: 294
-new min avg: ACUTE with avg: 102.44737981810307
-new min max: 231
-ADAGE avg: 229.53962754439152
-max: 504
-ADAPT avg: 276.3572975313989
-max: 630
-ADEPT avg: 133.79948029449977
-max: 308
-ADMIN avg: 217.67215244694674
-max: 499
-ADMIT avg: 180.49242096145517
-max: 440
-ADOBE avg: 136.2490255521871
-max: 292
+(Min Avg: ABACK - 532.01, Min Max: ABACK - 925)   ABACK - Avg: 532.01, Max: 925
+(Min Avg: ABASE - 197.92, Min Max: ABASE - 422)   ABASE - Avg: 197.92, Max: 422
+(Min Avg: ABATE - 197.09, Min Max: ABATE - 418)   ABATE - Avg: 197.09, Max: 418
+(Min Avg: ABATE - 197.09, Min Max: ABATE - 418)   ABBEY - Avg: 259.53, Max: 442
+(Min Avg: ABATE - 197.09, Min Max: ABATE - 418)   ABBOT - Avg: 284.68, Max: 541
+(Min Avg: ABHOR - 164.19, Min Max: ABHOR - 378)   ABHOR - Avg: 164.19, Max: 378
+(Min Avg: ABIDE - 137.22, Min Max: ABIDE - 298)   ABIDE - Avg: 137.22, Max: 298
+(Min Avg: ABIDE - 137.22, Min Max: ABIDE - 298)   ABLED - Avg: 150.40, Max: 380
+(Min Avg: ABODE - 135.58, Min Max: ABODE - 292)   ABODE - Avg: 135.58, Max: 292
+(Min Avg: ABORT - 124.43, Min Max: ABODE - 292)   ABORT - Avg: 124.43, Max: 333
+(Min Avg: ABORT - 124.43, Min Max: ABODE - 292)   ABOUT - Avg: 166.43, Max: 368
+(Min Avg: ABORT - 124.43, Min Max: ABODE - 292)   ABOVE - Avg: 168.65, Max: 326
+(Min Avg: ABORT - 124.43, Min Max: ABUSE - 274)   ABUSE - Avg: 128.01, Max: 274
+(Min Avg: ABORT - 124.43, Min Max: ABUSE - 274)   ABYSS - Avg: 392.76, Max: 682
+(Min Avg: ACORN - 119.07, Min Max: ABUSE - 274)   ACORN - Avg: 119.07, Max: 315
+(Min Avg: ACORN - 119.07, Min Max: ABUSE - 274)   ACRID - Avg: 140.97, Max: 343
+(Min Avg: ACTOR - 108.28, Min Max: ABUSE - 274)   ACTOR - Avg: 108.28, Max: 294
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ACUTE - Avg: 102.45, Max: 231
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADAGE - Avg: 248.30, Max: 504
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADAPT - Avg: 302.11, Max: 630
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADEPT - Avg: 133.80, Max: 308
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADMIN - Avg: 217.67, Max: 499
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADMIT - Avg: 180.49, Max: 440
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADOBE - Avg: 136.25, Max: 292
+(Min Avg: ACUTE - 102.45, Min Max: ACUTE - 231)   ADOPT - Avg: 156.59, Max: 383
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   ADORE - Avg: 88.694, Max: 241
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   ADORN - Avg: 129.61, Max: 316
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   ADULT - Avg: 148.53, Max: 396
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AFFIX - Avg: 543.44, Max: 808
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AFIRE - Avg: 98.855, Max: 237
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AFOOT - Avg: 299.56, Max: 545
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AFOUL - Avg: 179.19, Max: 381
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AFTER - Avg: 109.61, Max: 290
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGAIN - Avg: 295.39, Max: 614
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGAPE - Avg: 247.82, Max: 494
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGATE - Avg: 188.01, Max: 400
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGENT - Avg: 122.11, Max: 293
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGILE - Avg: 105.99, Max: 263
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGING - Avg: 334.58, Max: 614
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGLOW - Avg: 227.03, Max: 495
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGONY - Avg: 193.92, Max: 452
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AGREE - Avg: 178.85, Max: 407
+(Min Avg: ADORE - 88.694, Min Max: ACUTE - 231)   AHEAD - Avg: 249.80, Max: 448
+(Min Avg: ADORE - 88.694, Min Max: AIDER - 220)   AIDER - Avg: 93.478, Max: 220
+(Min Avg: AISLE - 76.090, Min Max: AISLE - 196)   AISLE - Avg: 76.090, Max: 196
+(Min Avg: AISLE - 76.090, Min Max: AISLE - 196)   ALARM - Avg: 248.86, Max: 501
+(Min Avg: AISLE - 76.090, Min Max: AISLE - 196)   ALBUM - Avg: 253.97, Max: 601
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALERT - Avg: 71.510, Max: 196
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALGAE - Avg: 210.55, Max: 435
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALIBI - Avg: 332.32, Max: 592
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALIEN - Avg: 83.638, Max: 220
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALIGN - Avg: 163.86, Max: 433
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALIKE - Avg: 110.47, Max: 271
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALIVE - Avg: 121.11, Max: 302
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALLAY - Avg: 592.41, Max: 844
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALLEY - Avg: 203.66, Max: 373
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALLOT - Avg: 204.85, Max: 416
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALLOW - Avg: 342.33, Max: 582
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALLOY - Avg: 273.13, Max: 496
+(Min Avg: ALERT - 71.510, Min Max: ALERT - 196)   ALOFT - Avg: 143.08, Max: 368
+(Min Avg: ALERT - 71.510, Min Max: ALONE - 182)   ALONE - Avg: 77.160, Max: 182
+(Min Avg: ALERT - 71.510, Min Max: ALONE - 182)   ALONG - Avg: 154.82, Max: 394
+(Min Avg: ALERT - 71.510, Min Max: ALONE - 182)   ALOOF - Avg: 310.33, Max: 566
+(Min Avg: ALERT - 71.510, Min Max: ALONE - 182)   ALOUD - Avg: 151.06, Max: 346
+(Min Avg: ALERT - 71.510, Min Max: ALONE - 182)   ALPHA - Avg: 365.08, Max: 676
+(Min Avg: ALERT - 71.510, Min Max: ALONE - 182)   ALTAR - Avg: 175.23, Max: 370
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ALTER - Avg: 69.825, Max: 196
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMASS - Avg: 621.42, Max: 872
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMAZE - Avg: 342.83, Max: 600
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMBER - Avg: 144.75, Max: 364
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMBLE - Avg: 152.85, Max: 382
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMEND - Avg: 154.91, Max: 355
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMISS - Avg: 301.97, Max: 535
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMITY - Avg: 168.97, Max: 418
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMONG - Avg: 218.74, Max: 503
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMPLE - Avg: 139.77, Max: 363
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMPLY - Avg: 249.29, Max: 615
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   AMUSE - Avg: 125.42, Max: 276
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANGEL - Avg: 119.79, Max: 309
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANGER - Avg: 111.78, Max: 296
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANGLE - Avg: 116.54, Max: 309
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANGRY - Avg: 173.10, Max: 403
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANGST - Avg: 154.78, Max: 426
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANIME - Avg: 111.73, Max: 257
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANKLE - Avg: 123.62, Max: 314
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANNEX - Avg: 306.27, Max: 516
+(Min Avg: ALTER - 69.825, Min Max: ALONE - 182)   ANNOY - Avg: 293.98, Max: 511
