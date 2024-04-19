@@ -1,5 +1,7 @@
-('RAISE', 60.744)		('ARISE', 167)
-('ARISE', 63.469)		('RAISE', 167)
+# First column is the Wardle set of 2309 solutions sorted by average remaining options.
+# Second column is the same set sorted by maximum possible remaining options.
+('RAISE', 60.744)		('RAISE', 167)
+('ARISE', 63.469)		('ARISE', 167)
 ('IRATE', 63.492)		('ALONE', 182)
 ('AROSE', 65.76)		('AROSE', 182)
 ('ALTER', 69.825)		('RATIO', 190)
