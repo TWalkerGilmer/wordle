@@ -3,7 +3,7 @@ def main():
     
     first_guess  = "stern"
     second_guess = "child"
-    third_guess  = "octet"
+    third_guess  = ""
     fourth_guess = ""
     fifth_guess  = ""
     sixth_guess  = ""
