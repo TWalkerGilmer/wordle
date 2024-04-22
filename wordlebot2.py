@@ -1,8 +1,8 @@
 def main():
-    solution     = "facet"
+    solution     = "laser"
     
-    first_guess  = "stern"
-    second_guess = "child"
+    first_guess  = "arise"
+    second_guess = "spear"
     third_guess  = ""
     fourth_guess = ""
     fifth_guess  = ""
@@ -34,16 +34,21 @@ def main():
             else:
                 unlikelyWords.append(w)    
         print("Possibilities after " + guess.upper() + ": " + str(len(likelyWords)) + " (+" + str(len(unlikelyWords)) + ")")
-        if len(legalWords) <= 35:
+        countprint = len(likelyWords)
+        if len(likelyWords) <= 20:
             while (likelyWords or unlikelyWords):
                 if (likelyWords):
                     print("\t" + likelyWords[0].upper(),end='')
                     likelyWords.remove(likelyWords[0])
                 else:
                     print("\t     ",end='')
+                    countprint -= 1
                 if (unlikelyWords):
                     print("\t\t" + unlikelyWords[0].upper(),end='')
                     unlikelyWords.remove(unlikelyWords[0])
+                if (countprint == 0):
+                    print("...\n\t\t\t(+" + str(len(unlikelyWords)) + ")")
+                    break;
                 print()
 
 def yellow(guess, solution, i):
