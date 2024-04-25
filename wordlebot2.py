@@ -1,8 +1,8 @@
 def main():
-    solution     = "laser"
+    solution     = "intro"
     
-    first_guess  = "arise"
-    second_guess = "spear"
+    first_guess  = "later"
+    second_guess = ""
     third_guess  = ""
     fourth_guess = ""
     fifth_guess  = ""
@@ -34,19 +34,19 @@ def main():
             else:
                 unlikelyWords.append(w)    
         print("Possibilities after " + guess.upper() + ": " + str(len(likelyWords)) + " (+" + str(len(unlikelyWords)) + ")")
-        countprint = len(likelyWords)
-        if len(likelyWords) <= 20:
+        countprint = 0
+        if len(likelyWords) <= 25:
             while (likelyWords or unlikelyWords):
                 if (likelyWords):
                     print("\t" + likelyWords[0].upper(),end='')
                     likelyWords.remove(likelyWords[0])
                 else:
                     print("\t     ",end='')
-                    countprint -= 1
+                    countprint += 1
                 if (unlikelyWords):
                     print("\t\t" + unlikelyWords[0].upper(),end='')
                     unlikelyWords.remove(unlikelyWords[0])
-                if (countprint == 0):
+                if (countprint > 8 and len(unlikelyWords) > 9):
                     print("...\n\t\t\t(+" + str(len(unlikelyWords)) + ")")
                     break;
                 print()
