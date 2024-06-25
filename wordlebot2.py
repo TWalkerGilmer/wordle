@@ -7,7 +7,8 @@ def main():
     fourth_guess = ""
     fifth_guess  = ""
     sixth_guess  = ""
-    
+
+    solution = solution.lower()
     guesses = [first_guess.lower(), second_guess.lower(), third_guess.lower(), fourth_guess.lower(), fifth_guess.lower(), sixth_guess.lower()]
     print("Solution: " + solution.upper())
     print("Possibilities: " + str(len(likelySolutions)) + " (+" + str(len(legalWords)-len(likelySolutions)) + ")")
