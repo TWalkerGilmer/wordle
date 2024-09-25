@@ -27,8 +27,9 @@ def main():
             if (w in likelySolutions):
                 likelyWords.append(w)
             else:
-                unlikelyWords.append(w)    
-        print("Possibilities after " + guess.upper() +" "+ guessColorStr + ": " + str(len(likelyWords)) + " (+" + str(len(unlikelyWords)) + ")")
+                unlikelyWords.append(w)
+        guessEmoStr = buildEmoStr(guessColorStr)
+        print("Possibilities after " + guess.upper() +" "+ guessEmoStr + ": " + str(len(likelyWords)) + " (+" + str(len(unlikelyWords)) + ")")
         countprint = 0
         if len(likelyWords) <= 35:
             while (likelyWords or unlikelyWords):
@@ -50,12 +51,23 @@ def buildColorStr(guess, solution):
     colorStr = ""
     for i in range(5):
         if (guess[i] == solution[i]):  # green
-            colorStr += "🟩"
+            colorStr += "g"
         elif yellow(guess, solution, i):  # yellow
-            colorStr += "🟨"
+            colorStr += "y"
         else:  # grey
-            colorStr += "⬛"
+            colorStr += "_"
     return colorStr
+
+def buildEmoStr(guessColorStr):
+    emoStr = ""
+    for i in range(5):
+        if (guessColorStr[i] == "g"):
+            emoStr += "🟩"
+        if (guessColorStr[i] == "y"):
+            emoStr += "🟨"
+        if (guessColorStr[i] == "_"):
+            emoStr += "⬛"
+    return emoStr
 
 def yellow(guess, solution, i):
     if (guess[i] not in solution):
