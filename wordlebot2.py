@@ -11,7 +11,7 @@ def main():
     possibilities_to_display = "20"
     print_unlikely_solutions = "yes"
     # Possibilities = 12972
-    likely_words = 3260
+    likely_words = 3680
 
     global sortedWords
     if (print_unlikely_solutions.lower() == "yes"):print_unlikely_solutions = True
