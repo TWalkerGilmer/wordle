@@ -1,8 +1,8 @@
 def main():
-    solution     = "torch"
+    solution     = ""
     
-    first_guess  = "arise"
-    second_guess = "clout"
+    first_guess  = ""
+    second_guess = ""
     third_guess  = ""
     fourth_guess = ""
     fifth_guess  = ""
