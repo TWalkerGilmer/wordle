@@ -16,6 +16,7 @@ def main():
     global sortedWords
     if (print_unlikely_solutions.lower() == "yes"):print_unlikely_solutions = True
     else:print_unlikely_solutions = False
+    changedPrintOptionToTrue = False
     solution = solution.lower()
     guesses = [first_guess.lower(), second_guess.lower(), third_guess.lower(), fourth_guess.lower(), fifth_guess.lower(), sixth_guess.lower()]
     print("Solution: " + solution.upper())
@@ -24,6 +25,9 @@ def main():
     unlikelyWords = sortedWords[likely_words:]
     for guess in guesses:
         if len(guess) == 0 : continue
+        if changedPrintOptionToTrue:
+            changedPrintOptionToTrue = False
+            print_unlikely_solutions = False
         guessColorStr = buildColorStr(guess, solution)
         likelyWords   = [word for word in likelyWords if buildColorStr(guess, word) == guessColorStr]
         unlikelyWords = [word for word in unlikelyWords if buildColorStr(guess, word) == guessColorStr]
@@ -32,6 +36,10 @@ def main():
         displayLikelyWords   = likelyWords.copy()
         displayUnlikelyWords = unlikelyWords.copy()
         likelyOut = False
+        if (print_unlikely_solutions == False and solution in unlikelyWords):
+            print_unlikely_solutions = True
+            changedPrintOptionToTrue = True
+            displayUnlikelyWords = [solution]
         if (len(displayLikelyWords) <= int(possibilities_to_display)):
             while (displayLikelyWords or displayUnlikelyWords):
                 if (displayLikelyWords):
