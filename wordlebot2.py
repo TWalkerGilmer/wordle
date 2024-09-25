@@ -1,8 +1,8 @@
 def main():
-    solution     = ""
+    solution     = "torch"
     
-    first_guess  = ""
-    second_guess = ""
+    first_guess  = "arise"
+    second_guess = "clout"
     third_guess  = ""
     fourth_guess = ""
     fifth_guess  = ""
@@ -28,7 +28,7 @@ def main():
                 likelyWords.append(w)
             else:
                 unlikelyWords.append(w)    
-        print("Possibilities after " + guess.upper() + ": " + str(len(likelyWords)) + " (+" + str(len(unlikelyWords)) + ")")
+        print("Possibilities after " + guess.upper() +" "+ guessColorStr + ": " + str(len(likelyWords)) + " (+" + str(len(unlikelyWords)) + ")")
         countprint = 0
         if len(likelyWords) <= 35:
             while (likelyWords or unlikelyWords):
@@ -50,11 +50,11 @@ def buildColorStr(guess, solution):
     colorStr = ""
     for i in range(5):
         if (guess[i] == solution[i]):  # green
-            colorStr += "G"
+            colorStr += "🟩"
         elif yellow(guess, solution, i):  # yellow
-            colorStr += "y"
+            colorStr += "🟨"
         else:  # grey
-            colorStr += "_"
+            colorStr += "⬛"
     return colorStr
 
 def yellow(guess, solution, i):
