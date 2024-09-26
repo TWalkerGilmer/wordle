@@ -1,15 +1,15 @@
 def main():
-    solution     = "thank"
+    solution     = ""
     
-    first_guess  = "arise"
-    second_guess = "clout"
-    third_guess  = "tangy"
+    first_guess  = ""
+    second_guess = ""
+    third_guess  = ""
     fourth_guess = ""
     fifth_guess  = ""
     sixth_guess  = ""
     
     possibilities_to_display = "20"
-    print_unlikely_solutions = "no"
+    print_unlikely_solutions = "yes"
     # Possibilities = 12972
     likely_words = 3300
 
