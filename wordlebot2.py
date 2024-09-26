@@ -1,15 +1,15 @@
 def main():
-    solution     = ""
+    solution     = "thank"
     
-    first_guess  = ""
-    second_guess = ""
-    third_guess  = ""
+    first_guess  = "arise"
+    second_guess = "clout"
+    third_guess  = "tangy"
     fourth_guess = ""
     fifth_guess  = ""
     sixth_guess  = ""
     
     possibilities_to_display = "20"
-    print_unlikely_solutions = "yes"
+    print_unlikely_solutions = "no"
     # Possibilities = 12972
     likely_words = 3300
 
@@ -34,7 +34,8 @@ def main():
         guessEmoStr = buildEmoStr(guessColorStr)
         print("Possibilities after "+ guess.upper() +" "+ guessEmoStr +": "+ str(len(likelyWords)) +" (+"+ str(len(unlikelyWords)) +")")
         displayLikelyWords   = likelyWords.copy()
-        displayUnlikelyWords = unlikelyWords.copy()
+        if (print_unlikely_solutions):displayUnlikelyWords = unlikelyWords.copy()
+        else:displayUnlikelyWords = []
         likelyOut = False
         if (print_unlikely_solutions == False and solution in unlikelyWords):
             print_unlikely_solutions = True
