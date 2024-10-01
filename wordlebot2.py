@@ -8,14 +8,13 @@ def main():
     fifth_guess  = ""
     sixth_guess  = ""
     
-    possibilities_to_display = "20"
-    print_unlikely_solutions = "yes"
+    possibilities_to_display = 20
+    print_unlikely_solutions = True
     # Possibilities = 12972
     likely_words = 3300
+    show_indices = False
 
     global sortedWords
-    if (print_unlikely_solutions.lower() == "yes"):print_unlikely_solutions = True
-    else:print_unlikely_solutions = False
     changedPrintOptionToTrue = False
     solution = solution.lower()
     guesses = [first_guess.lower(), second_guess.lower(), third_guess.lower(), fourth_guess.lower(), fifth_guess.lower(), sixth_guess.lower()]
@@ -45,13 +44,16 @@ def main():
             while (displayLikelyWords or displayUnlikelyWords):
                 if (displayLikelyWords):
                     print("\t" + displayLikelyWords[0].upper(),end='')
+                    if (show_indices):print(" (#"+str(sortedWords.index(displayLikelyWords[0]))+")",end='')
                     displayLikelyWords.remove(displayLikelyWords[0])
                 else:
                     if (print_unlikely_solutions):
                         print("\t     ",end='')
+                    if (show_indices):print("\t",end='')
                     likelyOut = True
                 if (displayUnlikelyWords and print_unlikely_solutions):
                     print("\t\t" + displayUnlikelyWords[0].upper(),end='')
+                    if (show_indices):print(" (#"+str(sortedWords.index(displayUnlikelyWords[0]))+")",end='')
                     displayUnlikelyWords.remove(displayUnlikelyWords[0])
                 if (likelyOut):
                     if (len(displayUnlikelyWords) > 5 and print_unlikely_solutions):
