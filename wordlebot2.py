@@ -10,11 +10,15 @@ def main():
     
     possibilities_to_display = 20
     print_unlikely_solutions = True
-    # Possibilities = 12972
+    show_words_ending_in_S = True
+    # Possibilities: 12972
+    # Possibilities without ending in S: 9014
     likely_words = 3300
     show_indices = False
 
     global sortedWords
+    if (not show_words_ending_in_S):
+        sortedWords = [word for word in sortedWords if not word.endswith("s")]
     changedPrintOptionToTrue = False
     solution = solution.lower()
     guesses = [first_guess.lower(), second_guess.lower(), third_guess.lower(), fourth_guess.lower(), fifth_guess.lower(), sixth_guess.lower()]
